@@ -40,6 +40,12 @@ CHAIN_CONFIGS = {
         "remote": "https://mainnet.base.org",
         "is_hex": True,
         "jsonrpc_body": {"jsonrpc": "2.0", "id": 1, "method": "eth_blockNumber", "params": []},
+    },
+    "sonic": {
+        "local": "http://127.0.0.1:18545",
+        "remote": "https://sonic-rpc.publicnode.com:443",
+        "is_hex": True,
+        "jsonrpc_body": {"jsonrpc": "2.0", "id": 1, "method": "eth_blockNumber", "params": []},
     }
 }
 
