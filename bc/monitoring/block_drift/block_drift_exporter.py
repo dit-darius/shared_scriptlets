@@ -46,6 +46,30 @@ CHAIN_CONFIGS = {
         "remote": "https://sonic-rpc.publicnode.com:443",
         "is_hex": True,
         "jsonrpc_body": {"jsonrpc": "2.0", "id": 1, "method": "eth_blockNumber", "params": []},
+    },
+    "bera": {
+        "local": "http://127.0.0.1:8545",
+        "remote": "https://berachain-rpc.publicnode.com",
+        "is_hex": True,
+        "jsonrpc_body": {"jsonrpc": "2.0", "id": 1, "method": "eth_blockNumber", "params": []},
+    },
+    "story": {
+        "local": "http://127.0.0.1:8545",
+        "remote": "https://mainnet.storyrpc.io",
+        "is_hex": True,
+        "jsonrpc_body": {"jsonrpc": "2.0", "id": 1, "method": "eth_blockNumber", "params": []},
+    },
+    "pulse": {
+        "local": "http://127.0.0.1:8545",
+        "remote": "https://pulsechain-rpc.publicnode.com",
+        "is_hex": True,
+        "jsonrpc_body": {"jsonrpc": "2.0", "id": 1, "method": "eth_blockNumber", "params": []},
+    },
+    "avalanchego": {
+        "local": "http://127.0.0.1:8545/ext/bc/C/rpc",
+        "remote": "https://avalanche.therpc.io",
+        "is_hex": True,
+        "jsonrpc_body": {"jsonrpc": "2.0", "id": 1, "method": "eth_blockNumber", "params": []},
     }
 }
 
