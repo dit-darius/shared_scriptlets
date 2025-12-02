@@ -43,7 +43,7 @@ CHAIN_CONFIGS = {
     },
     "sonic": {
         "local": "http://127.0.0.1:18545",
-        "remote": "https://sonic-rpc.publicnode.com:443",
+        "remote": "https://sonic-rpc.publicnode.com",
         "is_hex": True,
         "jsonrpc_body": {"jsonrpc": "2.0", "id": 1, "method": "eth_blockNumber", "params": []},
     },
@@ -70,7 +70,14 @@ CHAIN_CONFIGS = {
         "remote": "https://api.avax.network/ext/bc/C/rpc",
         "is_hex": True,
         "jsonrpc_body": {"jsonrpc": "2.0", "id": 1, "method": "eth_blockNumber", "params": []},
+    },
+    "monad": {
+        "local": "http://127.0.0.1:8080",
+        "remote": "https://rpc-mainnet.monadinfra.com/",
+        "is_hex": True,
+        "jsonrpc_body": {"jsonrpc": "2.0", "id": 1, "method": "eth_blockNumber", "params": []},
     }
+
 }
 
 
